@@ -3,9 +3,6 @@
   hosts: all
   
   tasks:
-    - name: install vim
-      yum: pkg=vim-nox state=latest
-
     - name: install pip
       yum: pkg=python-pip state=latest
 
